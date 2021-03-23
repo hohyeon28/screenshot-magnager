@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".FindActivity">
+
+    <!--TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="this is contents..." /-->
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/fnd_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click to search"
+        android:onClick="onClick"
+        android:layout_below="@+id/edit"
+        tools:ignore="OnClick"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="638dp"
+            android:layout_marginTop="-1dp"
+            android:layout_below="@+id/fnd_button"
+            android:id="@+id/resultLayout"></LinearLayout>
+</RelativeLayout>
