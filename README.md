@@ -1,4 +1,4 @@
-# 스크린샷 
+# 스크린샷 매니저
 
 ![image](https://user-images.githubusercontent.com/37900919/112145453-b85d6200-8c1d-11eb-9b27-5313b67cc943.png)
 ![image](https://user-images.githubusercontent.com/37900919/112145514-d034e600-8c1d-11eb-9c27-79b0221b418d.png)
